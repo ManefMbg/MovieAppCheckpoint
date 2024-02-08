@@ -1,0 +1,9 @@
+.movieList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-right: 3rem ;
+    margin-left: 3rem;
+
+}
