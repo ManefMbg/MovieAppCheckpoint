@@ -10,8 +10,8 @@ const Rating = ({rating, setRating, isRating, rate}) => {
     <Rate disabled value={rate}/>
   ) : (
     <Rate tooltips={desc}
-    onChange={(value) => setRating(value)}
     value={rating}
+    onChange={(value) => setRating(value)}
     />
   
   );

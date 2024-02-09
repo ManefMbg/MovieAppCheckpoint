@@ -23,7 +23,6 @@ const AddM = (newMovie) => {
   setMovies([...movies, newMovie])
 }
 
-
   return (
     <div className="App">
 
@@ -33,7 +32,7 @@ const AddM = (newMovie) => {
 
       <AddMovie AddM={AddM}/>
 
-      <MovieList movies={movies} searchByTitle={searchByTitle}/>
+      <MovieList movies={movies} searchByTitle={searchByTitle} rating={rating}/>
       
     </div>
   );
